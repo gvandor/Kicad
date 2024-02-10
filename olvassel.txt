@@ -1,0 +1,59 @@
+pin távolság célszerűen min. 4,8 mm legyen, a forrszemek átmérője átlagban 3 mm, a vezetősávok 1-2 mm.
+Fotózáshoz x = 150, y = 100 mm, A4-es lap = 275x170 mm.
+
+Kapcsolási rajznál a 140%-os nyomtatáshoz rajzoljuk meg a keretet (bal oldali eszköztáron vonalat használjuk) és abba rajzoljunk. A keret mérete X*Y = 210*150 mm. A lap bal felső sarkában levő origóból rajzoljuk, és nyomtatáskor majd oda visszük a keretet a benne levőkkel együtt, és akkor a 140%-os nyomtatáskor pont minden ki lesz nyomtatva. 
+PCB-nél fotózáshoz x = 150, y = 100 mm, A4-es lap = 275x170 mm.
+##############################################
+
+Program: sprint layout
+
+FONTOS: A BORD COPYZÁST TILOS, TÖBBET NEM TUDJUK MEGNYITNI A FILE-T, HELYETTE KIJELÖLNI A RAJZOT, ÉS VÁGÓLAP.
+
+1., board méretet beállítani, ha A4-et akarok; 170x260 mm.
+
+2., S1 layert (alkatrész oldali nézet)  tegyük aktívvá, illesszük be  szöveget: pl. a rajz neve, vagy alkatrész oldal.  A szöveget alkatrész nézetben olvashatóan teszi be, fólia nézetben tükörképet,  ebből tudni fogjuk a nézetet (nem számít rá, hogy a rézbe akarunk szöveget marni).  Ha fólia nézetre lesz szükségünk, egyszerűen tükrözzük horizontálisan. 
+
+3.,Tükrözni a szöveget és C2 layert (fólianézet) aktiválni  (a fólia váltás nem fordítja meg a panelt, kézzel kell horizentális tükrözéssel fordítani) ha van méretkorlát (pl. fotózás esetén) beillesztünk a bordra egy keretet , nullás layert rendelve hozzá (kivéve, ha a bordméret eleve olyan, amekkora lesz a rajz). Nyomtatáskor a keret zöld színét (ha fekete-fehér nyomtatás) változtassuk feketére.
+C2 nézetben berakjuk az alkatrészeket. 
+A rajzolást alkatrész oldal felől végzem, ha kész, így nyomtatom fóliára, majd a fóliát megfordítom és úgy fotózom rá a panelre, így a festék közvetlen kerül a panel felületére, és az alkatrészek is átfordulnak fólia nézetbe.
+Ha papírra nyomtatok, kézi módszerrel (pontozás, toll) csinálom, akkor mivel a papírt nem fordítom meg, a nyomtatás előtt tükrözni kell, és fólia nézetben printelek, így lesz helyes.
+
+4., ha kész a rajzunk teljesen célszerű összelakatolni, vagy közben a kész részeket lakatolni.
+
+5., új alkatrész rajzolása:
+C2-ben berakjuk a fólia pöttyeit, és mindent amit réz oldalon akarunk, majd tükrözéssel megfordítjuk a panelt, és S1-et aktiváljuk.
+Ekkor felrajzoljuk az alkatrész oldali vonalakat, szövegeket.
+Ha kész, visszafordítjuk tükrözéssel a panelt fólia nézetbe.  Ekkor az alkatrész oldali szövegeknek olvashatatlanoknak kell lenniük.
+Ekkor lakatoljuk és mentünk! 
+
+Fontos: Mentés előtt legyen fólia felőli nézetbe tükrözve (szöveg olvashatatlan), mert a program, ha van réz oldali elem, akkor  fólia nézetként menti el rajzunkat.
+Ha csak alkatrész oldali S1 vonalunk van, akkor mentéskor alkatrész felőli oldalként ment, tehát a tükrözéskor valóban alkatrész nézetre legyen fordítva.
+
+Mentéskor nem számít melyik fólia aktív, ha van zöld réz rajzelem, akkor fólianézetként menti a rajzot, ha csak piros alkatrész oldali vonal van, akkor alkatrésznézeti S1 nézetként ment.
+
+Az alkatrészeink így C2-ben illeszthetők a rajzba helyesen. Az alkatrészeket így mindig alulról nézve (fólia oldalról) látjuk. Alkatrész oldali rajzot szeretnénk, átfordítjuk tükrözéssel, a szövegek olvashatósága jelzi, hogy sikerült.
+Fontos: a repülő menü change bordside parancsa nem fordítja meg a panelt.
+
+
+Nyákméret fotózásra: 150x100
+A4: 170x255
+Forrszemek praktikusan: 3; és 3,5 mm.
+Vezetősávok: 2mm.
+
+Alkatrészt csinálunk S1-ben, elmentjük, mindig átfordítja horizontálisan S2 nézetbe. Beillesztéskor S2-be váltunk, majd utána vissza az S1-be.
+A bord átfordítás parancs a repülő menüben, nem fordítja, csak a layer változik.
+
+
+Feladat: Kör (circle): külső átm. 12mm, belső 
+------------------------------------------
+két adatot kell a tulajdonságlapon megadni;track widt (vonalvastagság), diameter (átmérő).
+A program, ha pl. 10mm átmérőt adtam meg, és 3 mm vonalvastagságot, akkor rajzol egy kört 3mm-es vonallal, melynek a sugara kívül 6,5 mm, belül 3,5 mm lesz, vagyis a külső átm.:13mm, a belső 7mm. Gyakorlatilag a megadott átmérőnek megfelelő körvonalat a 3mm-es vonalvastagság közepére teszi, ezért, ha a feladatot melyet fennt megadtam,  meg kell oldani, a megoldás a következő:
+*****************************************************
+külső kör sugara = 6 mm
+belső kör sugara = 2,5 mm
+vonal vastagság = ?
+átmérő = ?
+----------------------
+Vonalvastagság = a két kör sugarának különbsége = 3,5 mm
+
+átmérő = belső kör sugara + a vonalvastagság fele x 2 (mert amit számoltunk, az sugár volt) = 4,25x2 = 8,5 mm
