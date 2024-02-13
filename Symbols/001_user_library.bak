@@ -1,6 +1,6 @@
 (kicad_symbol_lib (version 20220914) (generator kicad_symbol_editor)
   (symbol "M2011S3A1W03" (pin_names hide) (in_bom yes) (on_board yes)
-    (property "Reference" "K" (at -0.0254 4.4958 0)
+    (property "Reference" "SW" (at -0.0254 4.4958 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "M2011S3A1W03" (at 0 -2.54 0)
