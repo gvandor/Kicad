@@ -1,4 +1,4 @@
-pin távolság célszerűen min. 4,8 mm legyen, a forrszemek átmérője átlagban 3 mm, a vezetősávok 1-2 mm.
+pin távolság célszerűen min. 4,8 mm legyen, a forrszemek átmérője 3-3,5 mm, a vezetősávok 1,5 - 2 - 3 - 5 mm.
 Fotózáshoz x = 150, y = 100 mm, A4-es lap = 275x170 mm.
 
 Kapcsolási rajznál a 140%-os nyomtatáshoz rajzoljuk meg a keretet (bal oldali eszköztáron vonalat használjuk) és abba rajzoljunk. A keret mérete X*Y = 210*150 mm. A lap bal felső sarkában levő origóból rajzoljuk, és nyomtatáskor majd oda visszük a keretet a benne levőkkel együtt, és akkor a 140%-os nyomtatáskor pont minden ki lesz nyomtatva. 
