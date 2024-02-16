@@ -1,4 +1,32 @@
-22655162203659424
+22661994676991051
+000_Capacitor
+CP_Radial_Elektrolit_D8.0mm_P4.0mm_H12
+CP, Radial series, Radial, pin pitch=4.0mm, , diameter=8mm, Electrolytic Capacitor
+Polarizalt elektrolit kondenzator
+0
+2
+2
+000_Capacitor
+CP_Radial_Tantal_D4.5mm_P5.00mm
+CP, Radial_Tantal series, Radial, pin pitch=5.00mm, , diameter=4.5mm, Tantal Electrolytic Capacitor, http://cdn-reichelt.de/documents/datenblatt/B300/TANTAL-TB-Serie%23.pdf
+CP Radial_Tantal series Radial pin pitch 5.00mm  diameter 4.5mm Tantal Electrolytic Capacitor
+0
+2
+2
+000_Capacitor
+C_Radial_Ceramic_D4.5mm_P5.00mm
+CP, Radial_Tantal series, Radial, pin pitch=5.00mm, , diameter=4.5mm, Tantal Electrolytic Capacitor, http://cdn-reichelt.de/documents/datenblatt/B300/TANTAL-TB-Serie%23.pdf
+C Radial Ceramic keramia kondenzator
+0
+2
+2
+000_Resistor
+R_Axial_L6.3mm_D2.5mm_P9.5mm_Horizontal
+Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=9.5mm, 0.5W = 1/2W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf
+Resistor P9.5mm
+0
+2
+2
 001_user_library
 BatteryHolder_Renata_SMTU2032-LF_1x2032
 https://www.renata.com/fr/downloads/?product=smtu2032-lf&fileid=6a9833a4d49dfb7b550194fe0f
