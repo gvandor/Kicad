@@ -1,4 +1,6 @@
-pin távolság célszerűen min. 4,8 mm legyen, a forrszemek átmérője 3-3,5 mm, a vezetősávok 1,5 - 2 - 3 - 5 mm.
+Track: 1.5 - 2 - 2.5 - 3 - 5 mm. Recommended = 2 mm.
+Pad diameter: 2.5 (0.8 drill) - 3 - 3.5 mm. Recommended = 3 mm.
+Radial Passive Device Pin length min. 4 mm. 
 Fotózáshoz x = 150, y = 100 mm, A4-es lap = 275x170 mm.
 
 Kapcsolási rajznál a 140%-os nyomtatáshoz rajzoljuk meg a keretet (bal oldali eszköztáron vonalat használjuk) és abba rajzoljunk. A keret mérete X*Y = 210*150 mm. A lap bal felső sarkában levő origóból rajzoljuk, és nyomtatáskor majd oda visszük a keretet a benne levőkkel együtt, és akkor a 140%-os nyomtatáskor pont minden ki lesz nyomtatva. 
@@ -11,7 +13,7 @@ Cu = Copper = réz
 Fab. = gyártási réteg: az alkatrész fizikai körvonalait követi le
 Silkscreen = szitanyomás: amit ráfestünk festékkel; felirat, logó, alkatrész száma, értéke stb.
 Courtyard = egy kis udvar, kis ráhagyás, hogy ne érjenek össze
-Mask = ez, ha minden igaz, a forrszemek rétege
+Mask = ez, ha minden igaz, a párnák rétege
 ##############################################
 
 Program: sprint layout
