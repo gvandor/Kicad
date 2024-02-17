@@ -1,4 +1,4 @@
-(footprint "R_Axial_L6.3mm_D2.5mm_P9.5mm_Horizontal" (version 20221018) (generator pcbnew)
+(footprint "R_Axial_L6.3mm_D2.5mm_P10.0mm_Horizontal" (version 20221018) (generator pcbnew)
   (layer "F.Cu")
   (descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=9.5mm, 0.5W = 1/2W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
   (tags "Resistor P9.5mm")
@@ -7,7 +7,7 @@
       (effects (font (size 1 1) (thickness 0.15)))
     (tstamp feaf2315-9459-4e5b-bd06-106bc303634a)
   )
-  (fp_text value "R_Axial_L6.3mm_D2.5mm_P9.5mm_Horizontal" (at 5.08 2.37) (layer "F.Fab")
+  (fp_text value "R_Axial_L6.3mm_D2.5mm_P_10mm_Horizontal" (at 5.08 2.37) (layer "F.Fab")
       (effects (font (size 1 1) (thickness 0.15)))
     (tstamp b7ee0cd7-bfee-496b-92c1-d88704fe67fa)
   )
@@ -48,7 +48,7 @@
   (fp_line (start 10.16 0) (end 8.23 0)
     (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp 9bc9b716-621b-4490-8cc7-7c24a198ea74))
   (pad "1" thru_hole circle (at 0 0) (size 3 3) (drill 0.8) (layers "*.Cu" "*.Mask") (tstamp 2f91f3f3-9c91-4e72-beff-15cd0f00e8e7))
-  (pad "2" thru_hole circle (at 9.5 0) (size 3 3) (drill 0.8) (layers "*.Cu" "*.Mask") (tstamp 8344306a-f2e9-488c-89f8-795d49418b7b))
+  (pad "2" thru_hole circle (at 10 0) (size 3 3) (drill 0.8) (layers "*.Cu" "*.Mask") (tstamp 8344306a-f2e9-488c-89f8-795d49418b7b))
   (model "${KICAD6_3DMODEL_DIR}/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal.wrl"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))

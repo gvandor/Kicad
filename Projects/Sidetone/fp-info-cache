@@ -1,4 +1,4 @@
-22661994676991051
+22665411175746004
 000_Capacitor
 CP_Radial_Elektrolit_D8.0mm_P4.0mm_H12
 CP, Radial series, Radial, pin pitch=4.0mm, , diameter=8mm, Electrolytic Capacitor
@@ -20,8 +20,22 @@ C Radial Ceramic keramia kondenzator
 0
 2
 2
+000_Diode
+D_D2.5_P10.0mm_Horizontal_Dioda
+Diode, A-405 series, Axial, Horizontal, pin pitch=7.62mm, , length*diameter=5.2*2.7mm^2, , http://www.diodes.com/_files/packages/A-405.pdf
+dioda diode Dioda Diode A-405 series Axial Horizontal pin pitch 7.62mm  length 5.2mm diameter 2.7mm
+0
+2
+2
+000_Diode
+LED_D5.0mm_P5.0_Clear
+LED, diameter 5.0mm, 2 pins, http://cdn-reichelt.de/documents/datenblatt/A500/LL-504BC2E-009.pdf
+led LED diameter 5.0mm 2 pins
+0
+2
+2
 000_Resistor
-R_Axial_L6.3mm_D2.5mm_P9.5mm_Horizontal
+R_Axial_L6.3mm_D2.5mm_P10.0mm_Horizontal
 Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=9.5mm, 0.5W = 1/2W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf
 Resistor P9.5mm
 0
