@@ -1,4 +1,4 @@
-22665411175746004
+22670536578479603
 000_Capacitor
 CP_Radial_Elektrolit_D8.0mm_P4.0mm_H12
 CP, Radial series, Radial, pin pitch=4.0mm, , diameter=8mm, Electrolytic Capacitor
@@ -34,6 +34,20 @@ led LED diameter 5.0mm 2 pins
 0
 2
 2
+000_IC
+DIP-8_W7.62mm_Socket_LongPads
+8-lead though-hole mounted DIP package, row spacing 7.62 mm (300 mils), Socket, LongPads
+THT DIP DIL PDIP 2.54mm 7.62mm 300mil Socket LongPads
+0
+8
+8
+000_IC
+DIP-14_LM324
+
+
+0
+14
+14
 000_Resistor
 R_Axial_L6.3mm_D2.5mm_P10.0mm_Horizontal
 Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=9.5mm, 0.5W = 1/2W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf
@@ -41,6 +55,13 @@ Resistor P9.5mm
 0
 2
 2
+000_Transistor
+TO-92_Kis_Muanyag_Hazas_Transistor
+TO-92 leads molded, narrow, drill 0.75mm, handsoldering variant with enlarged pads (see NXP sot054_po.pdf)
+to-92 sc-43 sc-43a sot54 PA33 transistor
+0
+3
+3
 001_user_library
 BatteryHolder_Renata_SMTU2032-LF_1x2032
 https://www.renata.com/fr/downloads/?product=smtu2032-lf&fileid=6a9833a4d49dfb7b550194fe0f
