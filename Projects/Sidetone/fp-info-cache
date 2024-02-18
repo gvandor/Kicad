@@ -1,4 +1,4 @@
-22670536578479603
+22675662307203928
 000_Capacitor
 CP_Radial_Elektrolit_D8.0mm_P4.0mm_H12
 CP, Radial series, Radial, pin pitch=4.0mm, , diameter=8mm, Electrolytic Capacitor
@@ -35,6 +35,13 @@ led LED diameter 5.0mm 2 pins
 2
 2
 000_IC
+DIP-6_W7.62mm_LongPads
+6-lead though-hole mounted DIP package, row spacing 7.62 mm (300 mils), LongPads
+THT DIP DIL PDIP 2.54mm 7.62mm 300mil LongPads
+0
+6
+6
+000_IC
 DIP-8_W7.62mm_Socket_LongPads
 8-lead though-hole mounted DIP package, row spacing 7.62 mm (300 mils), Socket, LongPads
 THT DIP DIL PDIP 2.54mm 7.62mm 300mil Socket LongPads
@@ -48,6 +55,55 @@ DIP-14_LM324
 0
 14
 14
+000_Other_Device
+Fuseholder_22x10mm_Horizontal
+https://www.tme.eu/en/Document/3b48dbe2b9714a62652c97b08fcd464b/PTF78.pdf
+Biztositek Fuseholder horizontal 10x20 
+0
+2
+2
+000_Other_Device
+Hangszoro
+Hangszoro, nem panelra ultetve, csak ket pad
+hangszoro speaker
+0
+2
+2
+000_Other_Device
+Kapcsolo_Pad_Group_2Pin_P7mm
+Hangszoro, nem panelra ultetve, csak ket pad
+hangszoro speaker
+0
+2
+2
+000_Other_Device
+Morse_Key_Pad_Group_2Pin_P7mm
+Hangszoro, nem panelra ultetve, csak ket pad
+hangszoro speaker
+0
+2
+2
+000_Other_Device
+Pad_Group_2Pin_P7mm
+Hangszoro, nem panelra ultetve, csak ket pad
+hangszoro speaker
+0
+2
+2
+000_Other_Device
+kapcsolo
+
+kapcsolo
+0
+2
+2
+000_Resistor
+Potenciometer_4Pin_P7mm
+
+
+0
+4
+4
 000_Resistor
 R_Axial_L6.3mm_D2.5mm_P10.0mm_Horizontal
 Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=9.5mm, 0.5W = 1/2W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf
@@ -62,41 +118,6 @@ to-92 sc-43 sc-43a sot54 PA33 transistor
 0
 3
 3
-001_user_library
-BatteryHolder_Renata_SMTU2032-LF_1x2032
-https://www.renata.com/fr/downloads/?product=smtu2032-lf&fileid=6a9833a4d49dfb7b550194fe0f
-Renata SMT battery holder coin cell 2032
-0
-2
-2
-001_user_library
-Buzzer_12x9.5RM7.6
-Generic Buzzer, D12mm height 9.5mm with RM7.6mm
-buzzer
-0
-2
-2
-001_user_library
-DIP-14_296_ELL_LM324
-
-
-0
-14
-14
-001_user_library
-LED_D5.0mm
-LED, diameter 5.0mm, 2 pins, http://cdn-reichelt.de/documents/datenblatt/A500/LL-504BC2E-009.pdf
-LED diameter 5.0mm 2 pins
-0
-2
-2
-001_user_library
-R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal
-Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=7.62mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf
-Resistor Axial_DIN0207 series Axial Horizontal pin pitch 7.62mm 0.25W = 1/4W length 6.3mm diameter 2.5mm
-0
-2
-2
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
