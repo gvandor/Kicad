@@ -1,4 +1,4 @@
-22675662307203928
+22682496664268933
 000_Capacitor
 CP_Radial_Elektrolit_D8.0mm_P4.0mm_H12
 CP, Radial series, Radial, pin pitch=4.0mm, , diameter=8mm, Electrolytic Capacitor
@@ -56,9 +56,30 @@ DIP-14_LM324
 14
 14
 000_Other_Device
++Vcc
+
+vcc
+0
+1
+1
+000_Other_Device
 Fuseholder_22x10mm_Horizontal
 https://www.tme.eu/en/Document/3b48dbe2b9714a62652c97b08fcd464b/PTF78.pdf
 Biztositek Fuseholder horizontal 10x20 
+0
+2
+2
+000_Other_Device
+GND
+
+pad
+0
+1
+1
+000_Other_Device
+GND_2Pin_D3.5mm
+
+pad
 0
 2
 2
@@ -83,6 +104,13 @@ hangszoro speaker
 0
 2
 2
+000_Other_Device
+Pad_1pin_D3.5
+
+pad
+0
+1
+1
 000_Other_Device
 Pad_Group_2Pin_P7mm
 Hangszoro, nem panelra ultetve, csak ket pad

@@ -11,6 +11,61 @@
   )
 
   (lib_symbols
+    (symbol "000_Device:GND" (in_bom yes) (on_board yes)
+      (property "Reference" "GND" (at 0 2.54 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Value" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Footprint" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_fp_filters" "gnd" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "GND_0_1"
+        (rectangle (start 2.54 1.27) (end 7.62 -1.27)
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+      )
+      (symbol "GND_1_1"
+        (pin passive line (at 0 0 0) (length 2.54)
+          (name "GND" (effects (font (size 1.27 1.27))))
+          (number "" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
+    (symbol "000_Device:Vcc" (in_bom yes) (on_board yes)
+      (property "Reference" "Vcc" (at 5.08 0 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Value" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Footprint" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "Vcc_0_1"
+        (rectangle (start 2.54 1.27) (end 7.62 -1.27)
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+      )
+      (symbol "Vcc_1_1"
+        (pin passive line (at 0 0 0) (length 2.54)
+          (name "" (effects (font (size 1.27 1.27))))
+          (number "" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
     (symbol "Amplifier_Audio:LM386" (pin_names (offset 0.127)) (in_bom yes) (on_board yes)
       (property "Reference" "U3" (at -2.3596 11.0316 0)
         (effects (font (size 1.27 1.27)))
@@ -1424,6 +1479,10 @@
     (stroke (width 0) (type default))
     (uuid 08bec7c6-27e0-454f-9b1d-cb0ff2067f36)
   )
+  (wire (pts (xy 147.32 100.33) (xy 162.56 100.33))
+    (stroke (width 0) (type default))
+    (uuid 096b3bce-5501-4ab6-b232-9982272c3207)
+  )
   (wire (pts (xy 142.24 80.01) (xy 142.24 81.28))
     (stroke (width 0) (type default))
     (uuid 09e7b02d-f1b7-4f8b-8d9b-87b4eb8d7b2c)
@@ -1655,6 +1714,10 @@
     (stroke (width 0) (type default))
     (uuid 4afd2129-cc89-47ec-952d-a11f1093e423)
   )
+  (wire (pts (xy 186.69 100.33) (xy 186.69 110.49))
+    (stroke (width 0) (type default))
+    (uuid 4c1ff26f-134d-4402-91cf-68bfcbc94fe9)
+  )
   (polyline (pts (xy 158.934 42.4225) (xy 160.8121 42.4523))
     (stroke (width 0) (type default))
     (uuid 4d1ac8d7-e5d8-4d9e-89db-5e08a8375e3c)
@@ -1753,10 +1816,6 @@
     (uuid 739d0c3f-7f8d-4e59-9368-a677723a47e7)
   )
 
-  (wire (pts (xy 147.32 100.33) (xy 162.56 100.33))
-    (stroke (width 0) (type default))
-    (uuid 78759932-6418-49b5-a2a1-129e0ef56f6a)
-  )
   (wire (pts (xy 142.24 88.9) (xy 142.24 91.44))
     (stroke (width 0) (type default))
     (uuid 7c426f87-9965-4f32-ab6f-bdfca16ccc25)
@@ -2132,10 +2191,6 @@
     (uuid fbd000ea-c25f-4daf-8637-67e7a9b85125)
   )
 
-  (wire (pts (xy 186.69 100.33) (xy 186.69 110.49))
-    (stroke (width 0) (type default))
-    (uuid fcc820fa-ea60-4d2d-bb1c-6b98fe33c1fd)
-  )
   (wire (pts (xy 111.76 80.01) (xy 115.57 80.01))
     (stroke (width 0) (type default))
     (uuid fffa487f-1042-4eff-aa60-0661112b396b)
@@ -2154,11 +2209,11 @@
     (effects (font (size 2 2)) (justify left bottom))
     (uuid 2778a095-6cb8-43cb-823e-1fa5fd569587)
   )
-  (text "9-12V DC" (at 194.31 121.92 0)
+  (text "9-12V DC" (at 196.85 121.92 0)
     (effects (font (size 1.5 1.5) (color 0 72 72 1)) (justify left bottom))
     (uuid 2e936e5f-7225-4ff1-9998-409d532dbfdc)
   )
-  (text "+" (at 191.77 121.92 0)
+  (text "+" (at 194.31 121.92 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 2f514ab9-bee3-4803-ad95-dbd49e25d87f)
   )
@@ -2249,6 +2304,31 @@
       (project "Sidetone"
         (path "/46ab649f-28d0-48e9-b5ab-0d60c8500dfe"
           (reference "R18") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "000_Device:Vcc") (at 172.72 100.33 90) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 09148070-6ae6-41bf-8a9d-c9775986f7e5)
+    (property "Reference" "Vcc1" (at 172.72 92.71 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+    )
+    (property "Value" "~" (at 172.72 100.33 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "000_Other_Device:+Vcc" (at 172.72 100.33 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 172.72 100.33 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "" (uuid 9e058d7d-40f3-4937-b8fb-f70391c1a96d))
+    (instances
+      (project "Sidetone"
+        (path "/46ab649f-28d0-48e9-b5ab-0d60c8500dfe"
+          (reference "Vcc1") (unit 1)
         )
       )
     )
@@ -2359,6 +2439,31 @@
       (project "Sidetone"
         (path "/46ab649f-28d0-48e9-b5ab-0d60c8500dfe"
           (reference "R19") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "000_Device:GND") (at 162.56 129.54 180) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 19fddcb7-92fa-4268-b1fb-776d6adcf454)
+    (property "Reference" "GND1" (at 157.48 125.73 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "~" (at 162.56 129.54 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "000_Other_Device:GND" (at 162.56 129.54 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 162.56 129.54 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "" (uuid f28eb975-43e0-4372-8505-908bdeb5d4bf))
+    (instances
+      (project "Sidetone"
+        (path "/46ab649f-28d0-48e9-b5ab-0d60c8500dfe"
+          (reference "GND1") (unit 1)
         )
       )
     )
@@ -2548,7 +2653,7 @@
   (symbol (lib_id "power:GNDD") (at 44.45 119.38 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 321a8125-0ff4-4b09-86d4-7247827346e6)
-    (property "Reference" "#PWR04" (at 44.45 125.73 0)
+    (property "Reference" "#PWR05" (at 44.45 125.73 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDD" (at 44.45 124.0051 0)
@@ -2564,7 +2669,7 @@
     (instances
       (project "Sidetone"
         (path "/46ab649f-28d0-48e9-b5ab-0d60c8500dfe"
-          (reference "#PWR04") (unit 1)
+          (reference "#PWR05") (unit 1)
         )
       )
     )
@@ -2688,7 +2793,7 @@
   (symbol (lib_id "power:GNDD") (at 191.77 110.49 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 522945de-b486-47d6-8978-03fc10c96bc6)
-    (property "Reference" "#PWR023" (at 191.77 116.84 0)
+    (property "Reference" "#PWR022" (at 191.77 116.84 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDD" (at 191.77 115.1151 0)
@@ -2704,7 +2809,7 @@
     (instances
       (project "Sidetone"
         (path "/46ab649f-28d0-48e9-b5ab-0d60c8500dfe"
-          (reference "#PWR023") (unit 1)
+          (reference "#PWR022") (unit 1)
         )
       )
     )
@@ -2830,7 +2935,7 @@
   (symbol (lib_name "VCC_1") (lib_id "power:VCC") (at 44.45 88.9 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5ef9d511-7a8b-4d45-9ae2-a9aad0d647d1)
-    (property "Reference" "#PWR07" (at 40.64 88.9 0)
+    (property "Reference" "#PWR04" (at 40.64 88.9 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "VCC" (at 49.9038 88.9 0)
@@ -2846,7 +2951,7 @@
     (instances
       (project "Sidetone"
         (path "/46ab649f-28d0-48e9-b5ab-0d60c8500dfe"
-          (reference "#PWR07") (unit 1)
+          (reference "#PWR04") (unit 1)
         )
       )
     )
@@ -2855,7 +2960,7 @@
   (symbol (lib_id "power:GNDD") (at 82.55 125.73 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5f24e438-890f-4ded-8467-1366d7e10f70)
-    (property "Reference" "#PWR010" (at 82.55 132.08 0)
+    (property "Reference" "#PWR09" (at 82.55 132.08 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDD" (at 82.55 130.3551 0)
@@ -2871,7 +2976,7 @@
     (instances
       (project "Sidetone"
         (path "/46ab649f-28d0-48e9-b5ab-0d60c8500dfe"
-          (reference "#PWR010") (unit 1)
+          (reference "#PWR09") (unit 1)
         )
       )
     )
@@ -2905,7 +3010,7 @@
   (symbol (lib_id "Device:R") (at 44.45 101.6 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5fe153b8-500c-4d91-946a-c0506484214d)
-    (property "Reference" "R5" (at 46.99 100.33 0)
+    (property "Reference" "R4" (at 46.99 100.33 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "220 K" (at 46.99 102.87 0)
@@ -2922,7 +3027,7 @@
     (instances
       (project "Sidetone"
         (path "/46ab649f-28d0-48e9-b5ab-0d60c8500dfe"
-          (reference "R5") (unit 1)
+          (reference "R4") (unit 1)
         )
       )
     )
@@ -3299,7 +3404,7 @@
   (symbol (lib_id "power:VCC") (at 198.12 123.19 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8227d3b0-c077-4256-a954-201a3384b261)
-    (property "Reference" "#PWR021" (at 194.31 123.19 0)
+    (property "Reference" "#PWR023" (at 194.31 123.19 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "VCC" (at 202.8963 123.19 0)
@@ -3315,7 +3420,7 @@
     (instances
       (project "Sidetone"
         (path "/46ab649f-28d0-48e9-b5ab-0d60c8500dfe"
-          (reference "#PWR021") (unit 1)
+          (reference "#PWR023") (unit 1)
         )
       )
     )
@@ -3660,7 +3765,7 @@
   (symbol (lib_id "power:PWR_FLAG") (at 193.04 123.19 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b342d83e-8a4a-41e5-8788-36aa933a662f)
-    (property "Reference" "#FLG01" (at 193.04 125.095 0)
+    (property "Reference" "#FLG02" (at 193.04 125.095 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "PWR_FLAG" (at 193.04 128.27 0)
@@ -3676,7 +3781,7 @@
     (instances
       (project "Sidetone"
         (path "/46ab649f-28d0-48e9-b5ab-0d60c8500dfe"
-          (reference "#FLG01") (unit 1)
+          (reference "#FLG02") (unit 1)
         )
       )
     )
@@ -3770,7 +3875,7 @@
   (symbol (lib_id "power:VCC") (at 48.26 13.97 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b8630d4e-f519-4bce-a1ab-a4cba5722f77)
-    (property "Reference" "#PWR05" (at 48.26 17.78 0)
+    (property "Reference" "#PWR06" (at 48.26 17.78 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "VCC" (at 48.26 8.6479 0)
@@ -3786,7 +3891,7 @@
     (instances
       (project "Sidetone"
         (path "/46ab649f-28d0-48e9-b5ab-0d60c8500dfe"
-          (reference "#PWR05") (unit 1)
+          (reference "#PWR06") (unit 1)
         )
       )
     )
@@ -3909,7 +4014,7 @@
   (symbol (lib_id "Device:R") (at 44.45 113.03 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c571c6a0-eee5-46d1-a014-5acf29f050c3)
-    (property "Reference" "R4" (at 46.99 111.76 0)
+    (property "Reference" "R5" (at 46.99 111.76 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "220 K" (at 46.99 114.3 0)
@@ -3926,7 +4031,7 @@
     (instances
       (project "Sidetone"
         (path "/46ab649f-28d0-48e9-b5ab-0d60c8500dfe"
-          (reference "R4") (unit 1)
+          (reference "R5") (unit 1)
         )
       )
     )
@@ -4114,7 +4219,7 @@
   (symbol (lib_id "power:GNDD") (at 48.26 29.21 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid debc67db-129a-44c4-9b0b-60982f5078ac)
-    (property "Reference" "#PWR06" (at 48.26 35.56 0)
+    (property "Reference" "#PWR07" (at 48.26 35.56 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDD" (at 48.26 33.8351 0)
@@ -4130,7 +4235,7 @@
     (instances
       (project "Sidetone"
         (path "/46ab649f-28d0-48e9-b5ab-0d60c8500dfe"
-          (reference "#PWR06") (unit 1)
+          (reference "#PWR07") (unit 1)
         )
       )
     )
@@ -4193,7 +4298,7 @@
   (symbol (lib_id "power:GNDD") (at 186.69 110.49 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e3f20e94-d473-4e45-a039-67a5237310be)
-    (property "Reference" "#PWR022" (at 186.69 116.84 0)
+    (property "Reference" "#PWR021" (at 186.69 116.84 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDD" (at 186.69 115.1151 0)
@@ -4209,7 +4314,7 @@
     (instances
       (project "Sidetone"
         (path "/46ab649f-28d0-48e9-b5ab-0d60c8500dfe"
-          (reference "#PWR022") (unit 1)
+          (reference "#PWR021") (unit 1)
         )
       )
     )
@@ -4218,7 +4323,7 @@
   (symbol (lib_id "power:PWR_FLAG") (at 162.56 129.54 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e4281e3c-b1a9-4529-a4a9-8eebffe2f300)
-    (property "Reference" "#FLG02" (at 164.465 129.54 0)
+    (property "Reference" "#FLG01" (at 164.465 129.54 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "PWR_FLAG" (at 166.37 129.54 90)
@@ -4230,11 +4335,11 @@
     (property "Datasheet" "~" (at 162.56 129.54 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 4c96f23d-6f1f-485d-8142-e71c7f2fd8eb))
+    (pin "1" (uuid 4c96f23d-6f1f-485d-8142-e71c7f2fd8ec))
     (instances
       (project "Sidetone"
         (path "/46ab649f-28d0-48e9-b5ab-0d60c8500dfe"
-          (reference "#FLG02") (unit 1)
+          (reference "#FLG01") (unit 1)
         )
       )
     )
@@ -4269,7 +4374,7 @@
   (symbol (lib_id "power:VCC") (at 83.82 66.04 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ef6ea282-43b0-4e4e-b6e6-5cb11fe07824)
-    (property "Reference" "#PWR09" (at 83.82 69.85 0)
+    (property "Reference" "#PWR010" (at 83.82 69.85 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "VCC" (at 83.82 60.7179 0)
@@ -4285,7 +4390,7 @@
     (instances
       (project "Sidetone"
         (path "/46ab649f-28d0-48e9-b5ab-0d60c8500dfe"
-          (reference "#PWR09") (unit 1)
+          (reference "#PWR010") (unit 1)
         )
       )
     )
