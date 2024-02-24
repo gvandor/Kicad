@@ -1,0 +1,4 @@
+PCB:
+Footprint módosítások szükségesek (furat távolságok pl.)
+Az összes kondi furattávolságát 3,8 mm-ről 4,4 mm-re.
+

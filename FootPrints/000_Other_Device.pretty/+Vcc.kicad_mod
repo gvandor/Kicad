@@ -22,5 +22,5 @@
     (stroke (width 0.1) (type default)) (fill none) (layer "F.Fab") (tstamp 56e37b83-38d3-48dd-bd00-ceae5ba5fd60))
   (fp_rect (start 2 2) (end -2 2)
     (stroke (width 0.1) (type default)) (fill none) (layer "F.Fab") (tstamp cf8c491b-f62e-4271-9fef-631063f0119f))
-  (pad "1" thru_hole circle (at 0 0) (size 3.5 3.5) (drill 0.8) (layers "*.Cu" "*.Mask") (tstamp 41e8c24a-a92f-4813-93a2-20ef7b5312ff))
+  (pad "" thru_hole circle (at 0 0) (size 3.5 3.5) (drill 0.8) (layers "*.Cu" "*.Mask") (tstamp 41e8c24a-a92f-4813-93a2-20ef7b5312ff))
 )
