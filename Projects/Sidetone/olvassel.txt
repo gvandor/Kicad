@@ -1,4 +1,3 @@
 PCB:
-Footprint módosítások szükségesek (furat távolságok pl.)
-Az összes kondi furattávolságát 3,8 mm-ről 4,4 mm-re.
+Látszólag 25 unroute van, de rendben van, csak elcsesztem a rétegrendet, utólag próbáltam megcsinálni, és ez bekavart, de leellenőriztem, jó.
 
