@@ -1,5 +1,5 @@
-Track: 1.5 - 2 - 2.5 - 3 - 5 mm. Recommended = 2 mm.
-Pad diameter: 2.5 (0.8 drill) - 3 - 3.5 mm. Recommended = 3 mm.
+Track: 1.3 (IC lábnál nem enged vastagabbat), 1.5 - 2 mm. Recommended = 2 mm.
+Pad diameter: (0.6 houls) - 3 - 3.5 - 4 mm. Recommended = 3 mm.
 Radial Passive Device Pin length min. 4 mm. 
 Fotózáshoz x = 150, y = 100 mm, A4-es lap = 275x170 mm.
 
@@ -13,7 +13,7 @@ Cu = Copper = réz
 Fab. = gyártási réteg: az alkatrész fizikai körvonalait követi le
 Silkscreen = szitanyomás: amit ráfestünk festékkel; felirat, logó, alkatrész száma, értéke stb.
 Courtyard = egy kis udvar, kis ráhagyás, hogy ne érjenek össze
-Mask = ez, ha minden igaz, a párnák rétege
+Mask = ez a párnák/padok rétege
 ##############################################
 
 Program: sprint layout

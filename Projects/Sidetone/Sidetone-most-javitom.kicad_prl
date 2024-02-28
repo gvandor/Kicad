@@ -2,7 +2,7 @@
   "board": {
     "active_layer": 0,
     "active_layer_preset": "",
-    "auto_track_width": false,
+    "auto_track_width": true,
     "hidden_netclasses": [],
     "hidden_nets": [],
     "high_contrast_mode": 0,
@@ -37,6 +37,7 @@
       8,
       9,
       10,
+      12,
       13,
       15,
       16,
@@ -62,29 +63,17 @@
       39,
       40
     ],
-    "visible_layers": "ffc3fff_ffffffff",
+    "visible_layers": "fffffff_7fffffff",
     "zone_display_mode": 0
   },
   "meta": {
-    "filename": "SidetoneDoubleSide.kicad_prl",
+    "filename": "Sidetone-most-javitom.kicad_prl",
     "version": 3
   },
   "project": {
     "files": [
       {
-        "name": "SidetoneDoubleSideJavitott.kicad_pcb",
-        "open": false,
-        "window": {
-          "display": 0,
-          "maximized": true,
-          "pos_x": 105,
-          "pos_y": 407,
-          "size_x": 1280,
-          "size_y": 613
-        }
-      },
-      {
-        "name": "SidetoneDoubleSide.kicad_pcb",
+        "name": "Sidetone-most-javitom.kicad_pcb",
         "open": false,
         "window": {
           "display": 0,
