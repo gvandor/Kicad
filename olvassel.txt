@@ -7,6 +7,7 @@ Kapcsolási rajznál a 140%-os nyomtatáshoz rajzoljuk meg a keretet (bal oldali
 PCB-nél fotózáshoz x = 150, y = 100 mm, A4-es lap = 275x170 mm.
 
 Rétegek:
+Alapszabály, hogy a réteg váltás nem fordítja meg a panelt, továbbra is ugyanaz a felső oldal, és onnan látunk mindent. Back rétegre ha szöveget teszünk azt tükrözve teszi be, mert feltételezi, hogy megfordítjuk a panelt, és onnan fogjuk olvasni, nem felülről.
 Front = felülről nézve
 Back = alulról (a front réteggel szemben) nézve
 Cu = Copper = réz

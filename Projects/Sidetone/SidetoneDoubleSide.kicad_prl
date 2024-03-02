@@ -37,6 +37,7 @@
       8,
       9,
       10,
+      11,
       13,
       15,
       16,
@@ -72,18 +73,6 @@
   "project": {
     "files": [
       {
-        "name": "SidetoneDoubleSideJavitott.kicad_pcb",
-        "open": false,
-        "window": {
-          "display": 0,
-          "maximized": true,
-          "pos_x": 105,
-          "pos_y": 407,
-          "size_x": 1280,
-          "size_y": 613
-        }
-      },
-      {
         "name": "SidetoneDoubleSide.kicad_pcb",
         "open": false,
         "window": {
@@ -92,7 +81,7 @@
           "pos_x": 105,
           "pos_y": 394,
           "size_x": 1280,
-          "size_y": 613
+          "size_y": 435
         }
       }
     ]

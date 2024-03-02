@@ -1,8 +1,8 @@
 {
   "board": {
     "active_layer": 0,
-    "active_layer_preset": "",
-    "auto_track_width": false,
+    "active_layer_preset": "All Layers",
+    "auto_track_width": true,
     "hidden_netclasses": [],
     "hidden_nets": [],
     "high_contrast_mode": 0,
@@ -19,7 +19,7 @@
       "footprints": true,
       "graphics": true,
       "keepouts": true,
-      "lockedItems": true,
+      "lockedItems": false,
       "otherItems": true,
       "pads": true,
       "text": true,
@@ -34,10 +34,11 @@
       3,
       4,
       5,
-      7,
       8,
       9,
       10,
+      11,
+      12,
       13,
       15,
       16,
@@ -60,18 +61,30 @@
       34,
       35,
       36,
-      37,
       39,
       40
     ],
-    "visible_layers": "ffd7f5f_7fffffff",
+    "visible_layers": "fffffff_ffffffff",
     "zone_display_mode": 0
   },
   "meta": {
-    "filename": "Sidetone.kicad_prl",
+    "filename": "Sidetone-javitott.kicad_prl",
     "version": 3
   },
   "project": {
-    "files": []
+    "files": [
+      {
+        "name": "Sidetone-javitott.kicad_pcb",
+        "open": false,
+        "window": {
+          "display": 0,
+          "maximized": true,
+          "pos_x": 105,
+          "pos_y": 394,
+          "size_x": 1280,
+          "size_y": 506
+        }
+      }
+    ]
   }
 }
