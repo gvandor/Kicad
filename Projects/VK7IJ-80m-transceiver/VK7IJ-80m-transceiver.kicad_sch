@@ -1,30 +1,41 @@
-(kicad_sch (version 20230121) (generator eeschema)
-
-  (uuid 866320f2-c0ec-4dd6-97fb-afff28834899)
-
-  (paper "A4")
-
-  (title_block
-    (title "80 m transceiver")
-    (date "2024-03-01")
-  )
-
-  (lib_symbols
-  )
-
-
-  (rectangle (start 0 0) (end 0 0)
-    (stroke (width 0) (type default))
-    (fill (type none))
-    (uuid 84e02801-c518-484d-ac8c-a62cd89260b9)
-  )
-  (rectangle (start 25.4 15.24) (end 235.4 165.24)
-    (stroke (width 0) (type default))
-    (fill (type none))
-    (uuid ee13f3ca-80f3-4dfd-b904-55e77b47bde0)
-  )
-
-  (sheet_instances
-    (path "/" (page "1"))
-  )
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "866320f2-c0ec-4dd6-97fb-afff28834899")
+	(paper "A4")
+	(title_block
+		(title "80 m transceiver")
+		(date "2024-03-01")
+	)
+	(lib_symbols)
+	(rectangle
+		(start 0 0)
+		(end 0 0)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 84e02801-c518-484d-ac8c-a62cd89260b9)
+	)
+	(rectangle
+		(start 25.4 15.24)
+		(end 235.4 165.24)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid ee13f3ca-80f3-4dfd-b904-55e77b47bde0)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
 )

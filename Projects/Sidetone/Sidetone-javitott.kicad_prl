@@ -67,6 +67,12 @@
     "visible_layers": "fffffff_ffffffff",
     "zone_display_mode": 0
   },
+  "git": {
+    "repo_password": "",
+    "repo_type": "",
+    "repo_username": "",
+    "ssh_key": ""
+  },
   "meta": {
     "filename": "Sidetone-javitott.kicad_prl",
     "version": 3
@@ -82,7 +88,7 @@
           "pos_x": 105,
           "pos_y": 394,
           "size_x": 1280,
-          "size_y": 506
+          "size_y": 399
         }
       }
     ]

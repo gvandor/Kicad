@@ -1,0 +1,950 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "9fa35010-6f96-4584-a9a6-78e7888fb11e")
+	(paper "A4")
+	(lib_symbols
+		(symbol "000_Device:negypolus_a"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "np"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "negypolus_a_0_1"
+				(rectangle
+					(start 1.27 2.54)
+					(end 3.81 -19.05)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "negypolus_a_1_1"
+				(pin passive line
+					(at -1.27 -17.78 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -1.27 -11.43 0)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -1.27 -5.08 0)
+					(length 2.54)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -1.27 1.27 0)
+					(length 2.54)
+					(name "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "kapcsolo_1"
+			(pin_names hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "K2"
+				(at -2.54 -2.5399 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right)
+				)
+			)
+			(property "Value" "kapcsolo"
+				(at -4.064 -4.826 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right)
+				)
+			)
+			(property "Footprint" ""
+				(at -3.81 -3.81 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at -3.81 -3.81 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at -3.81 -3.81 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "kapcsolo"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "kapcsolo_1_0_1"
+				(circle
+					(center -3.81 -1.6256)
+					(radius 0.2794)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -2.54 -6.35)
+					(radius 0.4419)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -6.35) (xy -1.27 -3.81) (xy -1.27 -3.81) (xy -1.27 -3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "kapcsolo_1_1_1"
+				(circle
+					(center -1.2861 -1.6143)
+					(radius 0.3047)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -2.54 -8.89 90)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -3.81 1.27 270)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -1.27 1.27 270)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(junction
+		(at 69.85 40.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "26663d07-c2ac-4f4f-b198-971bea8ec89a")
+	)
+	(junction
+		(at 55.88 59.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "713f02c3-bd20-4787-9ab4-1418c9d46ce0")
+	)
+	(junction
+		(at 69.85 46.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "85c1c2bd-41c9-49e7-b4cb-43f3fe44af68")
+	)
+	(junction
+		(at 69.85 53.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d2c94e83-9df0-4f76-8756-dfc68a83626b")
+	)
+	(junction
+		(at 91.44 49.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dae8a3cf-548c-4842-9f7a-abbcd94af67e")
+	)
+	(wire
+		(pts
+			(xy 69.85 53.34) (xy 80.01 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c5c50cf-291c-4bec-adde-12dcc6348e02")
+	)
+	(wire
+		(pts
+			(xy 87.63 53.34) (xy 87.63 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2055db7d-230e-44d1-99bd-4d0b170e8cbd")
+	)
+	(wire
+		(pts
+			(xy 58.42 46.99) (xy 69.85 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f6c90da-27d0-48cb-a57f-d90bb60c7023")
+	)
+	(wire
+		(pts
+			(xy 69.85 62.23) (xy 69.85 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "46f9ef40-4c54-402f-8065-f2ef5ecaafe3")
+	)
+	(wire
+		(pts
+			(xy 80.01 60.96) (xy 80.01 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d87b812-881c-4394-aae5-bf2119a0ecad")
+	)
+	(wire
+		(pts
+			(xy 69.85 46.99) (xy 80.01 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "55c6fa56-57ad-4a29-af18-7055d26931aa")
+	)
+	(wire
+		(pts
+			(xy 55.88 63.5) (xy 91.44 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f84e66b-a952-4793-b453-c3b1cf0590cf")
+	)
+	(wire
+		(pts
+			(xy 80.01 40.64) (xy 69.85 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c48010a-ff5f-4e31-a90c-2c83c5840711")
+	)
+	(wire
+		(pts
+			(xy 87.63 53.34) (xy 90.17 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "84cec453-bfa3-4a53-b453-99ebcad5fc7a")
+	)
+	(wire
+		(pts
+			(xy 86.36 52.07) (xy 86.36 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "96819ab8-a1b4-46fa-b810-38bc891c4b8a")
+	)
+	(wire
+		(pts
+			(xy 55.88 59.69) (xy 55.88 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a8c86505-f61e-474b-9169-d469f57e2867")
+	)
+	(wire
+		(pts
+			(xy 90.17 38.1) (xy 90.17 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b1360959-503b-4075-bdaf-99c7281e7032")
+	)
+	(wire
+		(pts
+			(xy 90.17 38.1) (xy 55.88 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b3434a25-a346-4705-8f2a-1ec44e81656a")
+	)
+	(wire
+		(pts
+			(xy 87.63 62.23) (xy 69.85 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b49257f7-1672-4a54-9aa4-b5f2123a1352")
+	)
+	(wire
+		(pts
+			(xy 91.44 49.53) (xy 91.4654 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b84a6215-0173-42bb-9b30-aafd42e629c1")
+	)
+	(wire
+		(pts
+			(xy 58.42 53.34) (xy 69.85 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bbeba791-000d-4ab4-90a1-2cd12d6c06da")
+	)
+	(wire
+		(pts
+			(xy 58.42 40.64) (xy 69.85 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc2a3a41-dcc5-4633-af0f-9233c8c82939")
+	)
+	(wire
+		(pts
+			(xy 90.17 49.53) (xy 91.44 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d6e0cf1c-8f77-429f-bdee-c3471e217305")
+	)
+	(wire
+		(pts
+			(xy 55.88 59.69) (xy 55.88 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dac6c50b-d400-49fb-8393-7896b5d12944")
+	)
+	(wire
+		(pts
+			(xy 58.42 59.69) (xy 55.88 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ebc257d0-58d3-4762-8da8-80487d34df21")
+	)
+	(wire
+		(pts
+			(xy 90.17 49.53) (xy 86.36 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef2ee37b-530f-4eb5-97e0-3a3825bebe4e")
+	)
+	(wire
+		(pts
+			(xy 86.36 60.96) (xy 80.01 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f1ae0ef1-1cb1-4663-81a8-00d920cd26ba")
+	)
+	(rectangle
+		(start 0 0)
+		(end 210 150)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 4fdd594e-70c5-4bed-acae-3dacebce96b1)
+	)
+	(symbol
+		(lib_name "000_Device:negypolus_a")
+		(lib_id "000_Device:negypolus_a")
+		(at 81.28 41.91 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "33ddc06a-5bbe-4c32-9faf-d2a745a099d7")
+		(property "Reference" "sata-2"
+			(at 86.106 46.736 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 86.36 51.435 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "000_Other_Device:Negypolus_a"
+			(at 81.28 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 81.28 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 81.28 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "b488f044-7468-4f26-8987-dfadbd451b51")
+		)
+		(pin ""
+			(uuid "d66c1542-fd06-494f-88dc-d18348ab0168")
+		)
+		(pin ""
+			(uuid "b27e14eb-e127-47f4-91cd-cdb54d96a573")
+		)
+		(pin ""
+			(uuid "fdf2fd00-39b5-4827-8f56-4fe21e26cf81")
+		)
+		(instances
+			(project "SataPowerSwitcher"
+				(path "/9fa35010-6f96-4584-a9a6-78e7888fb11e"
+					(reference "sata-2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "000_Device:negypolus_a")
+		(lib_id "000_Device:negypolus_a")
+		(at 71.12 41.91 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "812d1690-1582-42e4-b1d1-062c4fe3dee9")
+		(property "Reference" "Sata-1"
+			(at 75.946 46.99 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 76.2 51.435 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "000_Other_Device:Negypolus_a"
+			(at 71.12 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 71.12 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 71.12 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "76900fa5-d15c-43a5-95ac-1579a0e349cb")
+		)
+		(pin ""
+			(uuid "8c711b65-a884-4633-9625-e34f2a03e84b")
+		)
+		(pin ""
+			(uuid "cabbb423-b56a-4b36-83ab-dee4efbd1147")
+		)
+		(pin ""
+			(uuid "2e7a36c6-2628-47f0-aba9-695ebc57cac8")
+		)
+		(instances
+			(project "SataPowerSwitcher"
+				(path "/9fa35010-6f96-4584-a9a6-78e7888fb11e"
+					(reference "Sata-1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "000_Device:negypolus_a")
+		(lib_id "000_Device:negypolus_a")
+		(at 59.69 41.91 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "abe6c9c7-9ae9-44a4-b653-3a923cad02bd")
+		(property "Reference" "MolexCsatl.1"
+			(at 64.516 50.8 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 64.77 51.435 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "000_Other_Device:Negypolus_a"
+			(at 59.69 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 59.69 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 59.69 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "76900fa5-d15c-43a5-95ac-1579a0e349cc")
+		)
+		(pin ""
+			(uuid "8c711b65-a884-4633-9625-e34f2a03e84c")
+		)
+		(pin ""
+			(uuid "cabbb423-b56a-4b36-83ab-dee4efbd1148")
+		)
+		(pin ""
+			(uuid "2e7a36c6-2628-47f0-aba9-695ebc57cac9")
+		)
+		(instances
+			(project "SataPowerSwitcher"
+				(path "/9fa35010-6f96-4584-a9a6-78e7888fb11e"
+					(reference "MolexCsatl.1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "kapcsolo_1")
+		(lib_id "000_Device:kapcsolo")
+		(at 93.98 54.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e0a58021-9f3c-4edd-a329-3bf3400be683")
+		(property "Reference" "K2"
+			(at 94.0054 57.3708 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "kapcsolo"
+			(at 94.0054 59.9108 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "000_Other_Device:kapcsolo"
+			(at 90.17 58.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 90.17 58.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 90.17 58.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "7ef67906-c8b0-49df-b705-3b3e13fe4637")
+		)
+		(pin "3"
+			(uuid "f8563ee3-3f9f-49d1-9667-9ec1c2c21933")
+		)
+		(pin "3"
+			(uuid "4240533d-927e-4a5b-bb86-cad54b3e221b")
+		)
+		(instances
+			(project "SataPowerSwitcher"
+				(path "/9fa35010-6f96-4584-a9a6-78e7888fb11e"
+					(reference "K2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "kapcsolo_1")
+		(lib_id "000_Device:kapcsolo")
+		(at 93.98 40.64 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ee7dfdb5-b075-42f3-a220-f08aa0021f54")
+		(property "Reference" "K1"
+			(at 94.0054 43.4008 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "kapcsolo"
+			(at 94.0054 45.9408 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "000_Other_Device:kapcsolo"
+			(at 90.17 44.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 90.17 44.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 90.17 44.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "12e70592-0ac0-47c9-9fac-ea32d52edeb3")
+		)
+		(pin "3"
+			(uuid "b5f8d7e4-95b3-4df9-a392-faaab53f2ecb")
+		)
+		(pin "3"
+			(uuid "ec01ddca-0f06-48cb-8135-3cccb75e1b35")
+		)
+		(instances
+			(project "SataPowerSwitcher"
+				(path "/9fa35010-6f96-4584-a9a6-78e7888fb11e"
+					(reference "K1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)

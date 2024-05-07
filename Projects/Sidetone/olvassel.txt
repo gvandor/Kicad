@@ -1,3 +1,4 @@
 PCB:
+A javított egyoldalas, csak a fólia a megfelelő (B.Cu) rétegre került, mert eredetileg a frontra tettem. A javítottban zöld a fólia színe. A kétoldalas a doubleside, ez lett megvalósítva.
 Látszólag 25 unroute van, de rendben van, csak elcsesztem a rétegrendet, utólag próbáltam megcsinálni, és ez bekavart, de leellenőriztem, jó.
 

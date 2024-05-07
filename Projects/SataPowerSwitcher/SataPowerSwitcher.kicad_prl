@@ -1,8 +1,8 @@
 {
   "board": {
-    "active_layer": 0,
-    "active_layer_preset": "",
-    "auto_track_width": true,
+    "active_layer": 31,
+    "active_layer_preset": "All Layers",
+    "auto_track_width": false,
     "hidden_netclasses": [],
     "hidden_nets": [],
     "high_contrast_mode": 0,
@@ -74,13 +74,13 @@
     "ssh_key": ""
   },
   "meta": {
-    "filename": "VK7IJ-80m-transceiver.kicad_prl",
+    "filename": "SataPowerSwitcher.kicad_prl",
     "version": 3
   },
   "project": {
     "files": [
       {
-        "name": "VK7IJ-80m-transceiver.kicad_pcb",
+        "name": "SataPowerSwitcher.kicad_pcb",
         "open": false,
         "window": {
           "display": 0,
@@ -89,18 +89,6 @@
           "pos_y": 333,
           "size_x": 1280,
           "size_y": 507
-        }
-      },
-      {
-        "name": "VK7IJ-80m-transceiver.kicad_sch",
-        "open": false,
-        "window": {
-          "display": 0,
-          "maximized": true,
-          "pos_x": 48,
-          "pos_y": 303,
-          "size_x": 1552,
-          "size_y": 465
         }
       }
     ]

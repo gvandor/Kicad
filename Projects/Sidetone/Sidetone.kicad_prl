@@ -38,6 +38,7 @@
       8,
       9,
       10,
+      11,
       13,
       15,
       16,
@@ -67,11 +68,30 @@
     "visible_layers": "ffd7f5f_7fffffff",
     "zone_display_mode": 0
   },
+  "git": {
+    "repo_password": "",
+    "repo_type": "",
+    "repo_username": "",
+    "ssh_key": ""
+  },
   "meta": {
     "filename": "Sidetone.kicad_prl",
     "version": 3
   },
   "project": {
-    "files": []
+    "files": [
+      {
+        "name": "Sidetone.kicad_pcb",
+        "open": false,
+        "window": {
+          "display": 0,
+          "maximized": true,
+          "pos_x": 86,
+          "pos_y": 333,
+          "size_x": 1280,
+          "size_y": 328
+        }
+      }
+    ]
   }
 }
