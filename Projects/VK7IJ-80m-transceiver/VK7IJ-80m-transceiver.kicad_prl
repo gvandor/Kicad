@@ -1,7 +1,7 @@
 {
   "board": {
     "active_layer": 0,
-    "active_layer_preset": "",
+    "active_layer_preset": "All Layers",
     "auto_track_width": true,
     "hidden_netclasses": [],
     "hidden_nets": [],
@@ -14,6 +14,7 @@
       "vias": 1.0,
       "zones": 0.6
     },
+    "ratsnest_display_mode": 0,
     "selection_filter": {
       "dimensions": true,
       "footprints": true,
@@ -80,6 +81,18 @@
   "project": {
     "files": [
       {
+        "name": "VK7IJ-80m-transceiver.kicad_sch",
+        "open": false,
+        "window": {
+          "display": 0,
+          "maximized": true,
+          "pos_x": 52,
+          "pos_y": 392,
+          "size_x": 1552,
+          "size_y": 465
+        }
+      },
+      {
         "name": "VK7IJ-80m-transceiver.kicad_pcb",
         "open": false,
         "window": {
@@ -88,19 +101,7 @@
           "pos_x": 86,
           "pos_y": 333,
           "size_x": 1280,
-          "size_y": 507
-        }
-      },
-      {
-        "name": "VK7IJ-80m-transceiver.kicad_sch",
-        "open": false,
-        "window": {
-          "display": 0,
-          "maximized": true,
-          "pos_x": 48,
-          "pos_y": 303,
-          "size_x": 1552,
-          "size_y": 465
+          "size_y": 425
         }
       }
     ]
